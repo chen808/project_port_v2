@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+* {
+  padding: 0;
+  margin: 0; }
+
+#main-container {
+  background-image: url("../images/california_hero_image.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px; }
+
+nav {
+  background: rgba(0, 0, 0, 0.8);
+  height: 50px;
+  width: 100%;
+  padding: 20px 0px;
+  display: block;
+  position: fixed; }
+  nav img.self-logo {
+    float: left;
+    margin-left: 50px; }
+  nav .links-to-social {
+    float: right;
+    margin-right: 30px; }
+    nav .links-to-social img {
+      margin-right: 20px; }
+    nav .links-to-social img:hover {
+      transform: scale(1.25); }
+
+.title-area {
+  padding-top: 200px;
+  margin-left: 50px;
+  width: 400px; }
+  .title-area h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 6em;
+    color: white;
+    padding: 0px 0px; }
+
+.title-sayings {
+  margin-top: -20px; }
+  .title-sayings h4 {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 20px;
+    color: white; }
+
+#skills-container {
+  background-color: gray;
+  height: 600px; }
