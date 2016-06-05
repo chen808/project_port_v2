@@ -1,14 +1,26 @@
 // Google Fonts
 @import url(https://fonts.googleapis.com/css?family=Oswald:300)
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300)
+@import url(https://fonts.googleapis.com/css?family=Exo:100)
 
 // Font Variables
 $oswald: 'Oswald', sans-serif
 $open-sans: 'Open Sans', sans-serif
+$font-exo: 'Exo', sans-serif
+
+// Color Variables
+$watermelon-red: #ff3b3f
 
 *
 	padding: 0
 	margin: 0
+
+a
+	color: $watermelon-red
+	text-decoration: none
+
+a:hover
+	color: gray
 
 
 #main-container
@@ -33,6 +45,7 @@ nav
 	.links-to-social
 		float: right
 		margin-right: 30px
+		margin-top: 10px
 
 		img
 			margin-right: 20px
@@ -45,7 +58,7 @@ nav
 			transform: scale(1.25)
 
 .title-area
-	// margin: 0 auto
+	//margin: 0 auto
 	padding-top: 200px
 	margin-left: 50px
 	// text-align: center
@@ -54,25 +67,62 @@ nav
 
 
 	h1
-		font-family: $oswald
-		font-size: 6em
+		font-family: $font-exo
+		font-size: 3.5em
 		color: white
 		// border: 5px solid white
 		padding: 0px 0px
 
 
 .title-sayings
-	margin-top: -20px
-	
+	margin-top: -10px
+	margin-left: 5px
 	h4
-		font-family: $open-sans
+		font-family: $font-exo
 		margin-top: 20px
 		color: white
 		// border: 1px solid gray
 
+
+
+
+
+
 #skills-container
-	background-color: gray
+	background-color: white
+	height: 625px
+	width: 100%
+	margin: 0 auto
+	padding-top: 100px
+
+	h3
+		font-family: $font-exo
+		margin: 0 auto
+		width: 1000px
+		text-align: center
+		margin-bottom: 40px
+		//border: 1px solid black
+
+	#code-lang-container-top, #code-lang-container-bottom
+		width: 900px
+		margin: 0 auto
+		text-align: center
+		//border: 1px solid black
+		margin-bottom: 40px
+
+		img
+			margin: 0px 25px
+
+
+
+
+
+
+#project-container
+	background-color: #ccc
 	height: 600px
+
+
 
 
 
