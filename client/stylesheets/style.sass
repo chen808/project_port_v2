@@ -20,7 +20,7 @@ a
 	text-decoration: none
 
 a:hover
-	color: gray
+	color: #ccc
 
 
 #main-container
@@ -37,6 +37,7 @@ nav
 	padding: 20px 0px
 	display: block
 	position: fixed
+	z-index: 10
 
 	img.self-logo
 		float: left
@@ -50,12 +51,7 @@ nav
 		img
 			margin-right: 20px
 
-		img:hover
-			-webkit-transform:scale(1.25) /* Safari and Chrome */
-			-moz-transform:scale(1.25) /* Firefox */
-			-ms-transform:scale(1.25) /* IE 9 */
-			-o-transform:scale(1.25) /* Opera */
-			transform: scale(1.25)
+
 
 .title-area
 	//margin: 0 auto
@@ -154,23 +150,36 @@ nav
 
 
 #last-call-container
-	height: 1000px
+	height: 550px
 	padding-top: 100px
 
-	h1, li
+	h1
+		font-size: 3.5em
+		margin-bottom: 10px
+
+	h1, li, a
 		font-family: $font-exo
 
-	li a
-		//border: 1px solid black
-		vertical-align: middle
-
-	#bottom_contact li a
+	a
+		color: white
+		display: block
 		padding: 20px
-		border: 1px solid black
-	img
+		margin-bottom: 20px
+		width: 350px
+		background-color: $watermelon-red
 		//border: 1px solid black
-		vertical-align: middle
-		padding-right: 20px
+
+	a img 
+		vertical-align: bottom
+		//border: 1px solid black
+		margin-right: 20px
+
+	h6
+		font-family: $font-exo
+		margin-top: 30px
+
+
+
 		
 
 

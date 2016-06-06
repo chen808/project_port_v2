@@ -10,7 +10,7 @@ a {
   text-decoration: none; }
 
 a:hover {
-  color: gray; }
+  color: #ccc; }
 
 #main-container {
   background-image: url("../images/california_hero_image.jpeg");
@@ -24,7 +24,8 @@ nav {
   width: 100%;
   padding: 20px 0px;
   display: block;
-  position: fixed; }
+  position: fixed;
+  z-index: 10; }
   nav img.self-logo {
     float: left;
     margin-left: 50px; }
@@ -34,8 +35,6 @@ nav {
     margin-top: 10px; }
     nav .links-to-social img {
       margin-right: 20px; }
-    nav .links-to-social img:hover {
-      transform: scale(1.25); }
 
 .title-area {
   padding-top: 200px;
@@ -101,15 +100,23 @@ nav {
     vertical-align: top; }
 
 #last-call-container {
-  height: 1000px;
+  height: 550px;
   padding-top: 100px; }
-  #last-call-container h1, #last-call-container li {
+  #last-call-container h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px; }
+  #last-call-container h1, #last-call-container li, #last-call-container a {
     font-family: "Exo", sans-serif; }
-  #last-call-container li a {
-    vertical-align: middle; }
-  #last-call-container #bottom_contact li a {
+  #last-call-container a {
+    color: white;
+    display: block;
     padding: 20px;
-    border: 1px solid black; }
-  #last-call-container img {
-    vertical-align: middle;
-    padding-right: 20px; }
+    margin-bottom: 20px;
+    width: 350px;
+    background-color: #ff3b3f; }
+  #last-call-container a img {
+    vertical-align: bottom;
+    margin-right: 20px; }
+  #last-call-container h6 {
+    font-family: "Exo", sans-serif;
+    margin-top: 30px; }
