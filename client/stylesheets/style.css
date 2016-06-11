@@ -100,7 +100,7 @@ nav {
     vertical-align: top; }
 
 #last-call-container {
-  height: 550px;
+  height: 700px;
   padding-top: 100px; }
   #last-call-container h1 {
     font-size: 3.5em;
@@ -119,4 +119,4 @@ nav {
     margin-right: 20px; }
   #last-call-container h6 {
     font-family: "Exo", sans-serif;
-    margin-top: 30px; }
+    margin-top: 60px; }
