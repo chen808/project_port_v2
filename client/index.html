@@ -40,8 +40,12 @@
 	<link href="stylesheets/hover.css" rel="stylesheet" media="all">
 
 
+
+
 	<!-- Angular Code -->
 	<script type="text/javascript">
+
+
 
 		var myApp = angular.module('myApp',['ngRoute', 'routeStyles', 'duScroll']);
 
@@ -53,8 +57,8 @@
 			            templateUrl: 'partials/main.html'
 			        })
 			        .when('/hashfighter',{
-			            templateUrl: 'partials/secondary.html',
-			            css: 'stylesheet/secondary.css'
+			            templateUrl: 'partials/project_hashfighter.html',
+			            css: 'stylesheets/project_hashfighter.css'
 			        })
 			        .otherwise({
 			          redirectTo: '/'
@@ -89,12 +93,20 @@
 		      });
 		    }
 
-
-
-
-
-
+			$scope.hashfighter = function(){
+				// console.log("omg it works");
+				var location = "/hashfighter";
+				$location.path(location);
+			}
 		}); // end MeanController
+
+
+
+		myApp.controller('HashFighterController', function($scope, MeanFactory, $location, $anchorScroll){
+
+		});
+
+
 
 	</script>
 
@@ -103,6 +115,6 @@
 
 </head>
 <body>
-	<div ng-view=""></div>
+	<div ng-view="" autoscroll="true"></div>
 </body>
 </html>
