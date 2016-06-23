@@ -105,7 +105,7 @@ nav {
     height: 280px;
     padding: 30px;
     text-align: center;
-    background: linear-gradient(rgba(255, 59, 63, 0.9), rgba(255, 59, 63, 0.9)), url("../images/hashwarriors_logo.png") no-repeat center; }
+    background: linear-gradient(rgba(255, 59, 63, 0.9), rgba(255, 59, 63, 0.9)); }
     #project-container .project1 h3 {
       color: black;
       text-align: center; }
@@ -121,7 +121,7 @@ nav {
     height: 280px;
     padding: 30px;
     text-align: center;
-    background: linear-gradient(rgba(255, 59, 63, 0.9), rgba(255, 59, 63, 0.9)), url("../images/noworries.png") no-repeat center; }
+    background: linear-gradient(rgba(255, 59, 63, 0.9), rgba(255, 59, 63, 0.9)); }
     #project-container .project2 h3 {
       color: black;
       text-align: center; }
@@ -137,7 +137,7 @@ nav {
     height: 280px;
     padding: 30px;
     text-align: center;
-    background: linear-gradient(rgba(255, 59, 63, 0.9), rgba(255, 59, 63, 0.9)), url("../images/codenomnom_logo.png") no-repeat center; }
+    background: linear-gradient(rgba(255, 59, 63, 0.9), rgba(255, 59, 63, 0.9)); }
     #project-container .project3 h3 {
       color: black;
       text-align: center; }

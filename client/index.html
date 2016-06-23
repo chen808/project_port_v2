@@ -60,6 +60,14 @@
 			            templateUrl: 'partials/project_hashfighter.html',
 			            css: 'stylesheets/project_hashfighter.css'
 			        })
+			        .when('/noworries',{
+			            templateUrl: 'partials/project_noworries.html',
+			            css: 'stylesheets/project_noworries.css'
+			        })
+			        .when('/codingnomnom',{
+			            templateUrl: 'partials/project_codingnomnom.html',
+			            css: 'stylesheets/project_project_codingnomnom.css'
+			        })
 			        .otherwise({
 			          redirectTo: '/'
 			        });
@@ -73,10 +81,9 @@
 		myApp.factory('MeanFactory', function($http){
 			var factory = {};
 
-
+			// factory code here
 
 			return factory;
-
 
 		});
 
@@ -98,6 +105,18 @@
 				var location = "/hashfighter";
 				$location.path(location);
 			}
+
+			$scope.noworries = function(){
+				// console.log("omg it works");
+				var location = "/noworries";
+				$location.path(location);
+			}
+
+			$scope.codingnomnom = function(){
+				// console.log("omg it works");
+				var location = "/codingnomnom";
+				$location.path(location);
+			}
 		}); // end MeanController
 
 
@@ -107,7 +126,6 @@
 		});
 
 
-
 	</script>
 
 
@@ -115,6 +133,7 @@
 
 </head>
 <body>
+	<!-- autosroll makes sure which ever page you land on will start at top -->
 	<div ng-view="" autoscroll="true"></div>
 </body>
 </html>

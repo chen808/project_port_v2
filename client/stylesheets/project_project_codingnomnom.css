@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+h1, h4, h6 {
+  font-family: "Exo", sans-serif; }
+
+p {
+  font-family: "Open Sans", sans-serif; }
+
+#main-container {
+  background: linear-gradient(black, rgba(0, 0, 0, 0.1)), url("../images/codingnomnom_mockup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px; }
+
+#hf_description {
+  padding-top: 250px;
+  padding-left: 100px;
+  width: 600px;
+  color: white;
+  line-height: 300%; }
+
+#issues_container {
+  height: 550px;
+  background-color: white;
+  line-height: 250%;
+  padding: 100px 0px; }
+
+#inner_issues_container {
+  width: 1200px;
+  margin: 0 auto; }
+
+.issues_description {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  margin-left: 75px; }
+
+#video_demo {
+  background-color: white;
+  height: 600px;
+  width: 100%;
+  margin: 0 auto; }
+  #video_demo video {
+    width: 50% !important;
+    margin: 0% 25%; }
+  #video_demo a {
+    display: block;
+    font-family: "Exo", sans-serif;
+    width: 200px;
+    background-color: #ff3b3f;
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: center; }
+  #video_demo h6 {
+    margin-top: 50px;
+    padding-bottom: 30px; }
